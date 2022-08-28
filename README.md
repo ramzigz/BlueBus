@@ -35,6 +35,9 @@ $ npm install
 ## Running the app
 
 ```bash
+# database: you will need to install [MySQL](https://www.mysql.com/), and update the file  "src/db/config.ts"
+
+```bash
 # development
 $ npm run start
 
