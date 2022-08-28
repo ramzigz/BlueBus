@@ -24,7 +24,7 @@
 
 ## Description
 
-BlueBus is a lightweight [Nest](https://github.com/nestjs/nest) API that uses TypeORM to control all MySQL C.R.U.D. to all database-level Entities and documented in Swagger.
+BlueBus is a lightweight [Nest](https://github.com/nestjs/nest) API that uses TypeORM to control all MySQL C.R.U.D. to all database-level Entities and it's documented in Swagger.
 
 ## Installation
 
