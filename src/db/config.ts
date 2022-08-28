@@ -1,6 +1,4 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { Bus } from 'src/modules/buses/bus.entity';
-import { Driver } from 'src/modules/drivers/driver.entity';
 
 const dbConfig: TypeOrmModuleOptions = {
   type: 'mysql',
@@ -9,7 +7,7 @@ const dbConfig: TypeOrmModuleOptions = {
   username: 'root',
   password: 'root1234',
   database: 'blue_bus',
-  entities: [Driver, Bus],
+  entities: ['dist/**/*.entity{ .ts,.js}'],
   synchronize: true,
   migrations: ['dist/db/migrations/*{.ts,.js}'],
   migrationsTableName: 'migrations_typeorm',
