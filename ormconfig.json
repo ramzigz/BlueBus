@@ -1,0 +1,19 @@
+[
+  {
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "root1234",
+    "database": "bluebus",
+    "entities": [
+      "**/*.entity.js"
+    ],
+    "synchronize": false,
+    "migrations": [
+      "src/db/migrations/**/*.{ts,js}"
+    ],
+    "migrationsTableName": "migrations_typeorm",
+    "migrationsRun": true
+  }
+]
